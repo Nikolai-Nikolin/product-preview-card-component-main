@@ -1,0 +1,89 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: hsl(30, 38%, 92%);
+    height: 100vh;
+    display: flex;
+    justify-content: center; /* поставит по горизонтале в центр */
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.card {
+    width: 600px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex; /* для выравнивания */
+}
+
+.card > img {
+    width: 50%;
+    border-radius: 10px 0 0 10px;
+}
+
+.mycard {
+    width: 50%;
+    padding: 30px;
+}
+
+.muted-text {
+    display: inline-block;
+    color: hsl(228, 12%, 48%);
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    
+}
+
+.mycard > h2 {
+    color: hsl(212, 21%, 14%);
+    font-family: 'Fraunces', sans-serif;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.mycard > p {
+    color: hsl(228, 12%, 48%);
+    line-height: 20px; /* высота строки */
+    margin-bottom: 20px;
+}
+
+.card-price {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.card-price-new {
+    font-size: 32px;
+    font-family: 'Fraunces', sans-serif;
+}
+
+.card-price-old {
+    color: hsl(228, 12%, 48%);
+    text-decoration: line-through; /* зачеркнутый текст */
+    margin-left: 20px;
+}
+
+.mycard > button {
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: hsl(158, 36%, 37%);
+    font-weight: bold;
+}
+
+.mycard > button > img {
+    margin-right: 10px;
+    border-color: hsl(158, 36%, 37%);
+}
+
